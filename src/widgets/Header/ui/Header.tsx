@@ -1,18 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { Container, Icon, Logo, Nav, Content, LogoText } from "./styles";
+import { Logo } from "@/shared/ui";
+
+import { Container, Icon, Nav, Content } from "./styles";
 
 export default function Header() {
   return (
     <Container>
       <Content>
-        <Logo>
-          <Image src="img/logo.svg" alt="wallet" width={77} height={50} />
-          <LogoText>
-            <p>lqd<br/>banks</p>
-          </LogoText>
-        </Logo>
+        <Logo />
         <Nav>
           <Link href="/about">/about</Link>
           <Link href="/product">/product</Link>

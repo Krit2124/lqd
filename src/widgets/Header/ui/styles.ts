@@ -16,21 +16,6 @@ export const Content = styled.div`
   align-items: center;
 `;
 
-export const Logo = styled.div`
-  display: flex;
-  align-items: flex-start;
-  gap: 26px;
-`;
-
-export const LogoText = styled.div`
-  font-size: 36px;
-
-  p {
-    line-height: 1em;
-    letter-spacing: 0.54em;
-  }
-`;
-
 export const Nav = styled.nav`
   display: flex;
   width: 100%;
