@@ -12,8 +12,7 @@ const LetsStartSection = () => {
   return (
     <Container>
       <h1>LETS START</h1>
-
-      <ButtonWhite text="NOW" action={() => router.push("/wallet")} />
+      <ButtonWhite text="NOW" action={() => router.push("#connectWallet")} />
     </Container>
   );
 };

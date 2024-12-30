@@ -30,7 +30,7 @@ export default function BuildWalletSection() {
               <br />
               WALLET
             </p>
-            <ButtonWhite text="NOW" action={() => router.push("/wallet")} />
+            <ButtonWhite text="NOW" action={() => router.push("#connectWallet")} />
           </MainContent>
 
           <Image

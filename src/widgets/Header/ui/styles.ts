@@ -7,6 +7,9 @@ export const Container = styled.header`
   height: 154px;
   width: 100%;
   padding: 42px 124px 41px 71px;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
 `;
 
 export const Content = styled.div`
@@ -23,7 +26,6 @@ export const Nav = styled.nav`
 
   a {
     font-size: 26px;
-    font-family: "Arial", sans-serif;
     letter-spacing: 0.07em;
     font-weight: 300;
     position: relative;
@@ -41,10 +43,9 @@ export const Nav = styled.nav`
       transform-origin: left center;
     }
 
-    &:hover {
-      &:after {
-        transform: scaleX(1);
-      }
+    &:hover:after,
+    &.active:after {
+      transform: scaleX(1);
     }
   }
 `;

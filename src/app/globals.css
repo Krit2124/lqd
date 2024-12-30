@@ -9,6 +9,15 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "Consolas";
+  src: url("/fonts/consolas.ttf") format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +32,12 @@ body {
 }
 
 a {
+  font-family: "Inter", sans-serif;
   text-decoration: none;
   color: inherit;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
 }

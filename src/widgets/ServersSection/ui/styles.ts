@@ -24,5 +24,6 @@ export const TextContent = styled.div`
     font-weight: 300;
     letter-spacing: 0.54em;
     line-height: 1.64em;
+    font-family: "Consolas", "Inter", sans-serif;
   }
 `;

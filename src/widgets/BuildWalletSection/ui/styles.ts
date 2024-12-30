@@ -7,11 +7,12 @@ export const Container = styled.section`
   width: 1785px;
   max-width: 95vw;
   margin: 0 auto;
+  font-family: "Consolas", "Inter", sans-serif;
 `;
 
 export const UpperText = styled.p`
   font-size: 41px;
-  line-height: 1;
+  line-height: 0.7;
   letter-spacing: 0.89em;
 `;
 

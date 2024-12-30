@@ -4,11 +4,11 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  height: 405px;
   width: 1400px;
   max-width: 95vw;
   margin: 0 auto;
   gap: 260px;
+  font-family: "Consolas", "Inter", sans-serif;
 
   h1 {
     width: 100%;
